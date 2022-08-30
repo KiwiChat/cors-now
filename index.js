@@ -35,7 +35,7 @@ module.exports = async (req, res) => {
         } catch (err) {
             res.statusCode = 500;
             res.setHeader('Content-Type', 'application/json');
-            return { error: 'Yikes! Report to @gnumanth' };
+            return { error: 'Error! Report to @KiwiChat' };
         }
     } else {
         // proxy and respond
